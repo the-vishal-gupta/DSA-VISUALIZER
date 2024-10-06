@@ -9,7 +9,7 @@ class Menu extends Component {
     return (
       <nav className="flex justify-center items-center bg-slate-100 gap-10 py-2">
         <Link
-          to="/visualize"
+          to="/"
           className="font-bold py-2 px-5 pl-6 mr-16 bg-blue-500 hover:bg-blue-600 rounded text-white flex items-center transition duration-150 ease-in-out"
         >
           <MdArrowBackIos size={20} />

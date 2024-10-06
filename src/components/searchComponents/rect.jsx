@@ -22,15 +22,15 @@ class Rect extends Component {
             </div>
         );
     }
-    // checkColor = () => {
-    //     if (this.props.rect.isSorted) {
-    //         return "green";
-    //     } else if (this.props.rect.isSorting) {
-    //         return "red";
-    //     } else {
-    //         return "black"
-    //     }
-    // }
+    checkColor = () => {
+        if (this.props.rect.isSorted) {
+            return "green";
+        } else if (this.props.rect.isSorting) {
+            return "red";
+        } else {
+            return "black"
+        }
+    }
 
     getColorClass = () => {
         if (this.props.rect.isFound) {

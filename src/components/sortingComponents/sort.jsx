@@ -120,15 +120,15 @@ class Sort extends Component {
     this.setState({ rects: rect, rects2: rect2 });
   };
 
-  // handleRefresh = () => {
-  //   const rects = this.state.rects;
-  //   for (let i = 0; i < rects.length; i++) {
-  //     const rect = { ...rects[i], isSorted: false, isSorting: false };
-  //     rects[i] = rect;
-  //   }
-  //   const rects2 = rects.slice();
-  //   this.setState({ rects, rects2 });
-  // };
+  handleRefresh = () => {
+    const rects = this.state.rects;
+    for (let i = 0; i < rects.length; i++) {
+      const rect = { ...rects[i], isSorted: false, isSorting: false };
+      rects[i] = rect;
+    }
+    const rects2 = rects.slice();
+    this.setState({ rects, rects2 });
+  };
 
   handleDouble = (val) => {
     this.setState({ doubles: val });

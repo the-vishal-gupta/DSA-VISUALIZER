@@ -8,7 +8,7 @@ const AlgoTypeWriter = () => {
         <span className="font-bold text-2xl md:text-4xl text-white">
                 <Typewriter
                     options={{
-                        strings: ['Sorting Algorithm',"Searching Algorithm", "Pathfinding Algorithm", "Tree Tarversal"],
+                        strings: ['Sorting Algorithm',"Searching Algorithm", "Pathfinding Algorithm"],
                         autoStart: true,
                         loop: true,
                     }}

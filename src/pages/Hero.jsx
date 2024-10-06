@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Feature from "../components/Feature";
@@ -8,7 +8,7 @@ import Feature from "../components/Feature";
 const Hero = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main>
         <section className="py-32 px-4 mx-auto max-w-7xl sm:px-6">
           <div className="md:flex items-center gap-6">
